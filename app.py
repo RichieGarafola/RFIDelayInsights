@@ -190,7 +190,7 @@ if "priority_filter" not in st.session_state:
 
 # Filter header and multiselect UI elements
 st.sidebar.header("🔎 Filters")
-st.sidebar.multiselect("Topic", options=topics, key="topic_filter")
+st.sidebar.multiselect("Topic", options=topics, default=st.session_state.topic_filter, key="topic_filter")
 st.sidebar.multiselect("Priority", options=priorities, default=st.session_state.priority_filter, key="priority_filter")
 
 # Reset function to restore filters to full dataset state
