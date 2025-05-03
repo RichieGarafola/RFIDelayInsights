@@ -5,6 +5,8 @@ This project simulates and predicts delays in construction workflows by modeling
 
 ![RFI Insights Dashboard](./Images/app.png)
 
+https://rfi-delay.streamlit.app/
+
 ---
 
 ## 📂 Project Structure
